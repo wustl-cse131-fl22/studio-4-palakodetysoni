@@ -2,7 +2,7 @@ package studio4;
 
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
-
+import java.awt.Color;
 import edu.princeton.cs.introcs.StdDraw;
 import support.cse131.DialogBoxes;
 
@@ -29,33 +29,77 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.setXscale(0, 33);
+		StdDraw.setYscale(0, 20);
+		StdDraw.setPenColor(0, 0, 139);
+		StdDraw.filledRectangle(5.5, 10, 5.5, 10);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(16.5, 10, 5.5, 10);
+		StdDraw.setPenColor(139, 0, 0);
+		StdDraw.filledRectangle(27.5, 10, 5.5, 10);
 		
-		// TODO
 	}
 
 	public static void indonesia() {
 		
-		// TODO
+		StdDraw.setXscale(0, 40);
+		StdDraw.setYscale(0, 25);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(20, 18.75, 20, 6.25);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(20, 6.25, 20, 6.25);
 	}
 
 	public static void netherlands() {
 		
-		// TODO
+		StdDraw.setXscale(0, 28);
+		StdDraw.setYscale(0, 18);
+		StdDraw.setPenColor(0, 0, 139);
+		StdDraw.filledRectangle(14, 3, 14, 3);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(14, 9, 14, 3);
+		StdDraw.setPenColor(139, 0, 0);
+		StdDraw.filledRectangle(14, 15, 14, 3);
 	}
 
 	public static void poland() {
 		
-		// TODO
+		StdDraw.setXscale(0, 40);
+		StdDraw.setYscale(0, 25);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(20, 18.75, 20, 6.25);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(20, 6.25, 20, 6.25);
 	}
 
 	public static void thailand() {
 		
-		// TODO
+		StdDraw.setXscale(0, 28);
+		StdDraw.setYscale(0, 18);
+		
+		StdDraw.setPenColor(139, 0, 0);
+		StdDraw.filledRectangle(14, 1.5, 14, 1.5);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(14, 4.5, 14, 1.5);
+		
+		StdDraw.setPenColor(0, 0, 139);
+		StdDraw.filledRectangle(14, 9, 14, 3);
+		
+		StdDraw.setPenColor(139, 0, 0);
+		StdDraw.filledRectangle(14, 16.5, 14, 1.5);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(14, 13.5, 14, 1.5);
 	}
 
 	public static void finland() {
+		StdDraw.clear();
+		StdDraw.setXscale(0, 28);
+		StdDraw.setYscale(0, 18);
 		
-		// TODO
+		StdDraw.setPenColor(0, 0, 139);
+		StdDraw.filledRectangle(14, 9, 14, 3);
+		StdDraw.filledRectangle(10, 9, 3, 9);
+		
 	}
 
 	public static void main(String[] args) {
